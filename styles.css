@@ -3,7 +3,7 @@
     margin-left: 10%;
 }
 .container {
-    width: 300px;
+    width: 100%;
     margin: 20px;
     float: left;
   }
@@ -31,4 +31,15 @@
     display: block;
     margin-top: 10px;
   }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 31%;
+  }
+}
   
